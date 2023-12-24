@@ -1,0 +1,53 @@
+/* ChatContainer.css */
+
+.chat-messages {
+    flex: 1;
+    
+  }
+  
+  
+  
+  .sender {
+    background-color: #3d3e3f; /* Green color for sender */
+    align-self: flex-end;
+    color: white;
+  }
+  
+  .receiver {
+    background-color: #5d6062; /* Blue color for receiver */
+    align-self: flex-start;
+    color: white;
+    margin-left: 30rem;
+  }
+  /* ChatContainer.css */
+
+.chat-bubble {
+  display: flex;
+  align-items: center;
+  max-width: 70%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  word-wrap: break-word;
+}
+
+.user-profile {
+  width: 15%;
+}
+
+.message-content {
+  width: 70%;
+  padding-left: 10px; /* Add padding to separate the profile image from the message */
+  font-size:medium;
+  
+}
+.chat-messages-container {
+  flex: 1;
+  overflow-y: none;
+  padding-bottom: 10px;
+  
+}
+
+/* Rest of the CSS remains unchanged */
+
+  
