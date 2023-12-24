@@ -6,16 +6,21 @@ Welcome to SOCIAL, a dynamic MERN social media platform that transcends boundari
 # Features that Illuminate Your Social Universe
 **1. Seamless Authentication**
 Effortless Signups and Logins: Navigate the social cosmos with ease by registering or securely logging in.
+
 **2. Radiant Profile Management**
 Personal Starry Space: Customize your profile with stunning visuals, including profile pictures, a captivating bio, and personal details.
+
 **3. Social Connections**
 Posts: Share your thoughts and experiences with multimedia-rich posts that shine bright in the community.
 Hearts and Likes: Express yourself by liking posts and leaving stellar comments.
+
 **4. Friendship Bonds**
 Connections: Forge connections with other users through friend requests and nurture meaningful friendships.
 Friendship Feeds: Experience a tailored feed featuring posts exclusively from your cosmic companions.
+
 **5. Real-Time Chat**
 Light-Speed Messaging: Communicate with friends in real-time through our advanced chat feature powered by Socket.io.
+
 **6. Illuminating Light and Dark Modes**
 Aesthetics: Toggle between light and dark modes to suit your mood and enhance your viewing experience.
 
