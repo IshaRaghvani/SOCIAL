@@ -37,3 +37,86 @@ Aesthetics: Toggle between light and dark modes to suit your mood and enhance yo
 **Authentication :** JWT Magic
 
 **Real-Time Communication Warp:** Socket.io
+
+Certainly! Below is a simplified "Getting Started" section for a MERN social media app with separate client and server parts:
+
+---
+
+# Getting Started with SOCIAL
+
+SOCIAL is a MERN (MongoDB, Express.js, React.js, Node.js) social media app that connects you with a vibrant community. The app is divided into client and server parts for seamless development and deployment.
+
+## Prerequisites
+
+Before you begin, ensure you have the following tools installed:
+
+- [Node.js](https://nodejs.org/) - v14 or later
+- [MongoDB](https://www.mongodb.com/try/download/community) - Make sure MongoDB is running on your machine or use a cloud-based solution.
+
+## Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/social.git
+cd social
+```
+
+## Server Setup
+
+### Install Dependencies
+
+Navigate to the server directory and install the dependencies:
+
+```bash
+cd server
+npm install
+```
+
+### Configure Environment Variables
+
+Create a `.env` file in the server directory with the following content:
+
+```env
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+```
+
+### Start the Server
+
+```bash
+npm start
+```
+
+Your server will be running at [http://localhost:5000](http://localhost:5000).
+
+## Client Setup
+
+### Install Dependencies
+
+Navigate to the client directory and install the dependencies:
+
+```bash
+cd client
+npm install
+```
+
+### Configure API Endpoint
+
+Open `client/src/api/index.js` and set the `BASE_URL` variable to your server's URL:
+
+```javascript
+const BASE_URL = 'http://localhost:5000/api'; // Update this with your server URL
+```
+
+### Start the Client
+
+```bash
+npm start
+```
+
+Your client will be accessible at [http://localhost:3000](http://localhost:3000).
+
+## Launch Your Social Odyssey
+
+Open your browser, navigate to [http://localhost:3000](http://localhost:3000), and embark on your social journey with SOCIAL!
+
