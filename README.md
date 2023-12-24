@@ -27,8 +27,13 @@ Aesthetics: Toggle between light and dark modes to suit your mood and enhance yo
 
 
 # Technologies used:
-Frontend Galaxy: React.js
-Backend Nebula: Node.js, Express.js
-Database Constellation: MongoDB
-Authentication Secrets: JWT Magic
-Real-Time Communication Warp: Socket.io
+
+**Frontend :** React.js
+
+**Backend :** Node.js, Express.js
+
+**Database :** MongoDB
+
+**Authentication :** JWT Magic
+
+**Real-Time Communication Warp:** Socket.io
